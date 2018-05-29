@@ -1,0 +1,46 @@
+*{
+    width: auto;
+}
+
+#top{
+    background-color: bisque;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#main{
+    background-color: lightgray;
+    font-size: 12px;
+}
+#foot{
+    background-color: chocolate;
+    font-size: 18px;
+    font-style: italic;
+}
+.row{
+    border: solid 1px black;
+}
+@media only screen and (max-width: 480px){
+    .sm-1{
+        height: 14.28%;
+    }
+    .sm-5{
+        height: 71.42%;
+    }
+}
+@media only screen and (min-width: 481px){
+    .med-1{
+        height: 20%
+    }
+    .med-2{
+        height: 60%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .lg-1{
+        height: 25%;
+    }
+    .lg-2{
+        height: 50%;
+    }
+}
